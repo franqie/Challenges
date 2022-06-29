@@ -1,0 +1,217 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: robertFont;
+    src: url("Roboto-Light.ttf");
+}
+
+body {
+    height: 100vh;
+    font-family: robertFont;
+    font-size: 16px;
+}
+
+.mainbox {
+    background:hsl(0, 100%, 74%) url(images/bg-intro-desktop.png);
+    color: aliceblue;
+    max-width: 1440px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.textbox,
+.formbox {
+    max-width: 40%;
+    flex: 40%;
+    height: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    vertical-align: middle;
+}
+
+.textbox {
+    padding: 170px 70px;
+    margin-right: -70px;
+}
+
+.formbox {
+    text-align: center;
+    padding: 50px 0;
+}
+
+h1 {
+    font-size: 250%;
+    margin-bottom: 5%;
+    font-weight: 900;
+    line-height: 1;
+}
+
+.formbox > p {
+    background-color: hsl(248, 32%, 49%);
+    margin-bottom: 20px;
+    height: 45px;
+    text-align: center;
+    padding: 12px;
+    font-weight: 100;
+}
+
+.formdiv {
+    background-color: white;
+    height: auto;
+    padding: 10px 0;
+    color: hsl(249, 10%, 26%);
+}
+
+.formdiv,
+.formbox > p {
+    max-width: 80%;
+    border-radius: 7px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 5px hsla(0, 0%, 0%, 0.171);
+}
+
+input {
+    width: 87%;
+    height: 45px;
+    margin: 7px 0;
+    border: 1px solid hsl(246, 25%, 77%);
+    border-radius: 5px;
+    padding: 5px 20px;
+    font-weight: 800;
+    outline: none;
+    transition: border 0.2s;
+}
+
+input[id]:focus {
+    border: 2px solid hsl(248, 32%, 49%);
+}
+
+.submit {
+    background-color: hsl(154, 59%, 51%);
+    border: none;
+    color: aliceblue;
+    text-transform: uppercase;
+    box-shadow: 0 5px hsla(0, 0%, 0%, 0.39);
+}
+
+.submit[id]:focus {
+    border: none;
+}
+
+.formdiv p {
+    font-size: 70%;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.formdiv div p {
+    display: none;
+    width: 87%;
+    margin: 0 auto;
+    color: hsl(0, 100%, 74%);
+    font-size: 60%;
+    text-align: right;
+    margin-bottom: 5px;
+}
+
+p span {
+    color: hsl(0, 100%, 74%);
+}
+
+input::placeholder {
+    font-size: 100%;
+    font-weight: 600;
+}
+
+.error {
+    background-image: url(images/icon-error.svg);
+    background-repeat: no-repeat;
+    background-position: top 50% right 2%;
+    background-size: 6%;
+    border: 2px solid hsl(0, 100%, 74%);
+}
+
+
+/******Media Queries******/
+
+@media only screen and (max-width: 600px){
+    .mainbox {
+        display: block;
+        width: 375px;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    .textbox,
+    .formbox {
+        display: block;
+        max-width: 95%;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    .textbox {
+        padding: 100px 20px;
+        text-align: center;
+        line-height: 1.5;
+    }
+
+    .formdiv,
+    .formbox > p {
+        max-width: 95%;
+        border-radius: 7px;
+    }
+
+    .formbox {
+        padding-top: 10px;
+        padding-bottom: 50px;
+    }
+
+    .formbox > p {
+        height: 50px;
+        padding: 15px;
+    }
+
+    .footer {
+        padding: 0 50px;
+    }
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

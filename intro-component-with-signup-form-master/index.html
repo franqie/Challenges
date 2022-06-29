@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link type="text/css" rel="stylesheet" href="style.css">  
+  <title>Frontend Mentor | Intro component with sign up form</title>
+
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  
+  <div class="mainbox">
+    <div class="textbox">
+      <h1>Learn to code by <br> watching others</h1>
+      <p>See how experienced developers solve problems in real-time. Watching scripted tutorials is great, but understanding how developers think is invaluable.</p>
+    </div>
+    <div class="formbox">
+      <p class="header"><strong>Try it free 7 days</strong> then $20/mo. thereafter</p>
+      <div class="formdiv">
+        <form name="signUpForm" id="form" action="/action_page.php" target="_blank" autocomplete="on" method="post">
+          <div class="fname-box">
+            <input type="text" class="fname" id="fname" name="user" placeholder="First Name" required>
+            <p class="fname-p"><i>First Name cannot be empty</i></p>
+          </div>
+          <div class="lname-box">
+            <input type="text" class="lname" id="lname" name="user" placeholder="Last Name" required>
+            <p><i>Last Name cannot be empty</i></p>
+          </div>
+          <div class="email-box">
+            <input type="email" class="email" id="email" name="user" placeholder="e.g email@gmail.com" required>
+            <p><i>Looks like this is not an email</i></p>
+          </div>
+          <div class="password-box">
+            <input type="password" class="password" id="password" name="user" placeholder="Password" required>
+            <p><i>Password cannot be empty</i></p>
+          </div>
+          
+          <input type="submit" value="Claim your free trial" class="submit" id="submit">
+        </form>
+        <p class="footer">By clicking the button, you are agreeing to our <span><strong>Terms and Services</strong></span></p>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+<!--
+  Learn to code by watching others
+
+  See how experienced developers solve problems in real-time. Watching scripted tutorials is great, 
+  but understanding how developers think is invaluable. 
+
+  Try it free 7 days then $20/mo. thereafter
+
+  First Name 
+  Last Name 
+  Email Address
+  Password
+
+  Claim your free trial 
+
+  By clicking the button, you are agreeing to our Terms and Services
+-->
+
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Franklin</a>.
+    </p>
+  </footer>
+
+  <script src="index.js"></script>
+  
+</body>
+</html>

@@ -1,0 +1,209 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {    
+    height: 100vh;
+    font-family: Manrope;
+    font-size: 16px;
+    color: hsl(193, 38%, 86%);
+}
+
+.box {
+    background-color: hsl(218, 23%, 16%);
+    max-width: 1440px;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    background-color: hsl(217, 19%, 24%);
+    width: 30%;
+    height: auto;
+    padding: 35px;
+    text-align: center;
+    border-radius: 10px;
+    position: relative;
+}
+
+.advice-id {
+    margin-bottom: 25px;
+    text-transform: uppercase;
+    font-size: 12px;
+    color: hsl(150, 100%, 66%);
+}
+
+
+.advice {
+    height: 100px;
+    margin-bottom: 30px;
+    font-size: 28px;
+}
+
+.advice p {
+    display: inline;
+}
+
+.divider img {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.dice {
+    width: 50px;
+    height: 50px;
+    background-color:hsl(150, 100%, 66%);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 410px;
+}
+
+.dice:hover {
+    box-shadow: 0 0 30px hsl(150, 100%, 66%), inset 0 0 30px hsl(150, 100%, 66%);
+}
+
+.dice img {
+    width: 35%;
+    margin: 0;
+}
+
+
+/*** MEDIA QUERIES***/
+
+@media only screen and (max-width: 600px){
+    .box {
+        width: 375px;
+        margin: 0 auto;
+    }
+
+    .container {
+        width: 85%;
+    }
+
+    .advice {
+        margin-bottom: 70px;
+    }
+
+    .dice {
+        top: 430px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    color: rgb(221, 76, 76);
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
